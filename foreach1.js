@@ -7,7 +7,11 @@ var foods = ["pizza", "tacos", "ice cream"];
 
 // your code here
 
-// The output should be
+foods.forEach(function (item) {
+  console.log("I like " + item );
+});
+
+// Output
 // > "I like pizza"
 // > "I like tacos"
 // > "I like ice cream"

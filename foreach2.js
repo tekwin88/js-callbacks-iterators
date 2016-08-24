@@ -11,7 +11,15 @@
 
 // your code here
 
-// The output should be
+for (i=0; i<foods.length; i++) {
+  foods.forEach(function (item) {
+  console.log(foods[i].name + " is " + foods[i].level + " delicious");
+  });
+};
+
+
+
+// Output
 // > Pizza is very delicious
 // > Tacos is mostly delicious
 // > Cottage Cheese is not very delicious
